@@ -1,0 +1,3 @@
+SELECT DATE_FORMAT(FROM_UNIXTIME(v.date),'%d-%m-%Y %H:%m:%s') AS 'date-time',v.ip, v.design ,v.search, v.difficulties, v.site, v.age, v.text, v.email
+  FROM vote v
+/*SELECT COUNT(*) FROM vote*/
